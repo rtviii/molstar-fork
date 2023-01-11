@@ -7,6 +7,8 @@
 import * as path from 'path';
 
 export const getRcsbMolstarViewerAbsoluteFSPath = function () {
-                console.log("hi");
+    console.log("hi");
+    console.log();
+    
     return path.resolve(path.join(__dirname, '..', 'dist', 'viewer'));
 };

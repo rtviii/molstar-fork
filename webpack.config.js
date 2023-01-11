@@ -60,10 +60,10 @@ module.exports = [
     {
         entry: path.resolve(__dirname, `build/src/viewer/index.js`),
         output: {
-            library: 'rcsbMolstar',
+            library      : 'rcsbMolstar',
             libraryTarget: 'umd',
-            filename: `rcsb-molstar.js`,
-            path: path.resolve(__dirname, `build/dist/viewer`)
+            filename     : `rcsb-molstar.js`,
+            path         : path.resolve(__dirname, `build/dist/viewer`)
         },
         ...sharedConfig
     },{

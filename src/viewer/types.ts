@@ -55,11 +55,9 @@ export interface ViewerState {
     showStructureComponentControls: boolean
     showVolumeStreamingControls   : boolean
     showValidationReportControls  : boolean
-
-    modelLoader: ModelLoader
-
-    collapsed: BehaviorSubject<CollapsedState>
-    detachedFromSierra: boolean
+    modelLoader                   : ModelLoader
+    collapsed                     : BehaviorSubject<CollapsedState>
+    detachedFromSierra            : boolean
 }
 
 export function ViewerState(plugin: PluginContext) {
